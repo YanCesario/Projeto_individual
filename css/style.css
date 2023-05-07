@@ -5,10 +5,49 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 
-#container{
-    
+.container{
+    background-color: red;
+    color: white;
+    border-radius: 17px;
+    padding: 1.5px;
+    width: 100%;
+}
+
+#logo{
 display: flex;
+justify-content: space-evenly;
+width: 85px;
+height: 85px;
+margin-right: 655px;
 align-items: center;
-justify-content: center;
 
 }
+
+
+#header .navBar{
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+text-decoration: none;
+list-style: none;
+margin-right: 15px;
+
+}
+
+#header .navBar a:link{
+    color: white;
+    text-decoration: none;
+}
+
+#header .navBar a:active{
+    color: white;
+    text-decoration: none;
+}
+
+#header .navBar a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+
