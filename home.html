@@ -1,66 +1,207 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styleNavBar.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Home | Project: WebHead</title>
 </head>
 
+
+
 <body>
+
     <div id="header">
 
-        <div class="container">
+        <!-- <div class="container">
             <ul class="navBar">
-                    <li><img id="logo" src="https://seeklogo.com/images/S/Spiderman_Symbol-logo-F92437175D-seeklogo.com.png"></li>
-                    <li>Home</li>
-                    <li><a href="#">Conexão com o tema</a></li>
+                <li><img id="logo"
+                        src="https://seeklogo.com/images/S/Spiderman_Symbol-logo-F92437175D-seeklogo.com.png"></li>
+                <li>Home</li>
+                <li><a href="#">Conexão com o tema</a></li>
+                <li><a href="#">Aranhaverso</a></li>
+                <li>|</li>
+                <li><a href="#">Onde Assistir</a></li>
+                <li><a href="login.html">Sair</a></li>
+            </ul> -->
+
+        <!-- </div>
+    </div> -->
+
+        <div class="navbar">
+            <div class="container nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="logo">
+
+                    <img id="logo" src="../Projeto_individual/Imagens/logo aranha branco.png">
+                </div>
+                <div class="menu-items">
+                    <li><a href="#">Galeria de Personagens</a></li>
                     <li><a href="#">Aranhaverso</a></li>
-                    <li>|</li>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Cadastro</a></li>
+                    <li><a href="#">Sair</a></li>
 
-
-                </ul>
-
+                </div>
+            </div>
         </div>
     </div>
-    <center> <img src="/Projeto_individual/Imagens/aranhaTobey.png" id="aranhaTobey"> <img src="/Projeto_individual/Imagens/aranhaAndrew.png" id="aranhaAndrew"> 
-            <img src="/Projeto_individual/Imagens/aranhaHolland.png" id="aranhaHolland"></center>
 
     <div id="home">
 
+        <div id="video">
+            <video id="videoAranha" autoplay playsinline muted loop>
 
-<h1 class="titulo">Project: WebHead</h1>
+                <source src="videoAranha.mp4">
+
+            </video>
 
 
-<div id="carrossel">
 
-*imagens do carrossel virão aqui*
+            <h1 class="titulo">Project: WebHead</h1> <br>
+        </div>
+
+
+        <div id="introdução">
+
+            <section>
+                <article>
+                    <h2>Introdução</h2>
+
+                    Criado de agosto de 1962 pelas lendas Stan Lee e Steve Ditko, o Homem-Aranha é sem dúvida o herói
+                    mais famoso da ficção, e se bobear, o mais rentável também.
+                    Não existe um lugar no mundo onde as pessoas não conheçam o cabeça de teia. Só que mais importante
+                    que
+                    isso, talvez não exista um lugar no mundo onde as pessoas não se identifiquem com ele. <br> <br>
+
+                    Peter Parker é um garoto que foi deixado para ser criado por seus tios, e (dependendo do roteirista)
+                    ainda não sabe o paradeiro de seus pais. Um garoto extremamente inteligente, <br>
+                    Peter sempre foi alvo de bullying na escola, principalmente pelo valentão do colégio Flash Thompson.
+                    Mas
+                    durante uma excursão da escola, Peter é mordido por uma aranha radioativa <br>
+                    que alterou seu material genético e lhe deu os poderes de escalar paredes, força sobre-humana e um
+                    sexto
+                    sentido capaz de prever o perigo, carinhosamente apelidado de Sentido-Aranha.
+
+                </article>
+            </section> <br>
+            <img src="https://m.media-amazon.com/images/I/51ylofh3QmL.jpg" id="primeiraAparicao">
+            <figcaption class="legenda">A primeira aparição do teioso foi na HQ "Amazing Fantasy #15"</figcaption>
+
+
+            <div id="criação">
+                <h2>Processo de criação</h2>
+                <article>
+
+
+                    <section>
+                        Enquanto estava no processo de criação do persongem, Stan Lee teve a ideia de seus poderes
+                        enquanto observava uma mosca escalando uma parede. Stan queria algo diferente do que tínhamos na
+                        época,
+                        que eram super heróis épicos,
+                        muitas vezes com inspirações religiosas em sua criação (como o próprio paralelo entre Superman e
+                        Jesus Cristo). Stan queria alguém com quem as pessoas pudessem se identificar (principalmente
+                        crianças e adolescentes),
+                        não somente pelos suas boas ações,
+                        mas também por suas falhas. Também por isso Lee foi muito criticado pelo editor-chefe da época
+                        quando sugeriu a ideia do novo personagem. <br> <br>
+
+                        Foi dito que o personagem deveria ser épico, grandioso e inalcançável, e que seus feitos
+                        deveriam ser igualmente grandes, mas Stan persistiu na ideia e e então o Cabeça de teia foi
+                        criado. <br>
+
+
+                    </section>
+
+                </article>
+            </div>
+
+        </div> <br>
+
+
+        <div id="Cinema">
+
+            <h2 id="tituloCinema"> No Cinema </h2>
+            <!-- <section>
+        
+        <article>
+Obviamente, não demorou muito tempo para a ideia de adaptar o herói para as telas de cinema. Na década de 90, o diretor James Cameron (Titanic, Avatar, Exterminador do Futuro) estava pronto para dirigir o filme do herói que contaria com ninguém mais, ninguém menos do que <b>Leonardo DiCaprio</b> estrelando como Peter Parker. Embora o filme estivesse entrado em fase de pré-produção com artes conceituais e alguns storyboards perdidos, o longa acabou sendo cancelado. <br>
+Pouquíssimo tempo depois, essa mesma ideia de um filme acabou caindo nas mãos do diretor Sam Raimi (Evil Dead, Doutor Estranho no Multiverso da Loucura) que cotou a jovem promessa Tobey Maguire para o papel principal, Kirsten Dunst como Mary Jane, James Franco como Harry Osborn e Willem Dafoe como Norman Osborn/Duende Verde. 
+
+</article>
+
+</section> -->
+
+
+            <div id="filmes">
+                <h2 id="raimi">Trilogia "Sam Raimi" (2001 - 2007)</h2>
+                <div class="trilogiaTobey">
+                    <img id="tobey1"  src="https://upload.wikimedia.org/wikipedia/pt/1/14/Spide-Man_Poster.jpg">
+                    <img id="tobey2" 
+                        src="https://m.media-amazon.com/images/M/MV5BMzY2ODk4NmUtOTVmNi00ZTdkLTlmOWYtMmE2OWVhNTU2OTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg">
+                    <img id="tobey3"
+                        src="https://static.wikia.nocookie.net/spiderman-films/images/e/e6/Spider-Man_3_Poster_2.png/revision/latest?cb=20130416060454">
+                    </div> <br>
+
+<div class="Espetacular">
+<h2>O Espetacular Homem-Aranha</h2>
+<img id="andrew1" src="">
+<img id="andrew2" src="">
+
+</div> <br>
+
+<div class="trilogiaHome">
+<h2>Trilogia "Home"</h2>
+<img id="holland1" src="">
+<img id="holland2" src="">
+<img id="holland3" src="">
 
 </div>
 
 
-
-<h3 class="introdução">
-
-Criado em 15 de agosto de 1965 pela lenda Stan Lee e Steve Ditko, o Homem-Aranha é sem dúvida o herói mais famoso da ficção, e se bobear, o mais rentável também.
-Não existe um lugar no mundo onde as pessoas não conheçam o cabeça de teia. Só que mais importante que isso, talvez não exista um lugar no mundo onde as pessoas não se identifiquem com ele. <br>
-Peter Parker é um garoto que foi criado pelos seus tios, após
-
-</h3>
+            </div>
 
 
-
-</div>
-
+        </div>
 
 
+        <!-- <div id="marco">
+
+            
+                <h2>O Primeiro herói a falhar...</h2>
+
+                <article>
+
+                    <section>
+
+                        O primeiro grande marco nas histórias do Aranha após sua criação, foi que na edição 'The Amazing Spider-Man #121-122' de julho de 1973 é o arco d'A Noite em que Gwen Stacy Morreu. Foi algo chocante na época, algo inimaginável, a falha de um herói ao salvar alguém. A HQ em que Peter não consegue salvar sua namorada foi realmente revolucionária para a maneira que histórias em quadrinhos viriam a ser roteirizadas. Toda a carga emocional da perda, da falha e da culpa podem ser nitidamente vistas em "Homem-Aranha: Azul", história que se passa no primeiro Dia dos Namorados após a morte de Gwen.  
+                        
+                        
+                    </section>
+                </article>
+        </div> -->
+
+
+
+
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
+
 
 <script>
 

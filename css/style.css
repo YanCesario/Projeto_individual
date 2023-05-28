@@ -1,53 +1,258 @@
-body{
+*{
 
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Gothic A1', sans-serif;
+}
+
+@font-face{
+    font-family: 'Homoarakhn';
+    src: url('Homoarakhn.ttf');
+}
+
+b{
+    color:rgb(41, 105, 208);
+}
+
+
+body {
+
+    margin: 0;
+    /* overflow: hidden; */
+    font-family: 'Gothic A1', sans-serif;
+    background-color: black;
+    color: white;
 
 }
 
 
-.container{
-    background-color: red;
+body::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(240, 70, 70);    
+    border-radius: 30px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(198, 47, 47) /* creates padding around scroll thumb */
+  }
+
+
+
+/* .container {
+    background: rgb(228, 16, 16);
+    background: linear-gradient(90deg, rgba(228, 16, 16, 1) 32%, rgba(0, 212, 255, 1) 100%);
     color: white;
-    border-radius: 17px;
-    padding: 1.5px;
+    border-radius: 12px;
+    padding: 0.5px;
     width: 100%;
-}
-
-#logo{
-display: flex;
-justify-content: space-evenly;
-width: 85px;
-height: 85px;
-margin-right: 655px;
-align-items: center;
-
+    height: 55px;
 }
 
 
-#header .navBar{
 
-display: flex;
-align-items: center;
-justify-content: space-between;
-text-decoration: none;
-list-style: none;
-margin-right: 15px;
+#logo {
+    display: flex;
+    justify-content: space-evenly;
+    width: 45px;
+    height: 45px;
+    margin-right: 655px;
+    align-items: center;
 
 }
 
-#header .navBar a:link{
+#header{
+
+margin-top: -3px;
+
+}
+
+
+#header .navBar {
+
+    font-size: 15px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 15px;
+    
+
+}
+
+#header .navBar a:link {
     color: white;
     text-decoration: none;
 }
 
-#header .navBar a:active{
+#header .navBar a:active {
     color: white;
     text-decoration: none;
 }
 
-#header .navBar a:visited{
+#header .navBar a:visited {
     color: white;
     text-decoration: none;
+} */
+
+/* fim de configurações de navBar */
+
+
+/* #videoAranha {
+
+    position: relative;
+    margin-top: -16px;
+    width: 100%;
+} */
+
+ 
+h2{
+    color: red;
+}
+
+#video video{   
+    position: absolute;
+    left: 0;
+    top:  0;
+    width: 100%;
+    height: auto;
+    
+} 
+
+
+
+
+#video{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    padding: 16px;
+    height: 700px;
+}
+
+ .titulo {
+
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+
+    
 }
 
 
+/* #videoAranha{
+    position: relative;
+    min-width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    /* -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%); */
+    /* transform: translateX(-50%) translateY(-50%); 
+}*/
+
+/* Fim de configurações de video e navBar */
+
+/* Introdução do tema */
+
+#introdução{
+margin-left: 35%;
+margin-top: 250px;
+text-justify: auto;
+text-align: justify;
+line-height: 1.4em;
+width: 580px;
+
+}
+
+#introdução h2{
+
+    color: red;
+    margin-left: 35%;
+
+}
+
+#primeiraAparicao{
+    margin-left: 19%;
+    transition-duration: 0.7s;
+
+}
+
+#primeiraAparicao:hover{
+box-shadow: 0px 2px 50px rgba(249, 131, 131, 0.848);
+
+}
+
+.legenda{
+    margin-left: 9%;
+}
+
+#criação{
+    margin-top: 100px;
+}
+#criação h2{
+    margin-left: 30%;
+}
+
+/* Começo da div sobre filmes */
+
+
+#Cinema{
+    margin-left: 2%;
+    margin-top: 15%;      
+}
+
+#Cinema img{
+ 
+    height: 324px;
+    width: 261px;
+}
+
+#tituloCinema{
+    margin-left: 48%;
+}
+
+#filmes{
+    margin-top: 5%;
+}
+
+.trilogiaTobey{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#raimi{
+    font-family: 'Homoarakhn';
+    color: silver;
+}
+
+#tobey1{
+    transition-duration: 0.5s;
+}
+
+#tobey1:hover{
+ transform: scale(1.1);
+ box-shadow:0px 2px 50px rgb(213, 170, 40)
+}
+#tobey2{
+    transition-duration: 0.5s;
+}
+#tobey2:hover{
+    transform: scale(1.1);
+    box-shadow:0px 2px 50px rgb(239, 41, 23);
+}
+#tobey3{
+    transition-duration: 0.5s;
+}
+#tobey3:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 2px 50px rgb(17, 58, 148) ;
+}
